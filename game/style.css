@@ -1,0 +1,377 @@
+body {
+
+    background-image: url("https://il2.picdn.net/shutterstock/videos/5151608/thumb/9.jpg");
+    background-position: bottom center;
+    font-variant: small-caps;
+    background-size: cover;
+    font-family: "times new roman";
+
+}
+
+/*Stuff below governs the start screen*/
+
+.titleContent {
+    margin: 10% auto;
+    text-align: center;
+}
+
+.splashTitle {
+    color: #fff;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+}
+
+.button, #instructionbutton {
+    border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #abc;
+    width: 75px;
+}
+  a.button:hover {
+    background-color: #383838;
+    color: #abc;
+  }
+
+  #throneroom {
+    background-image: url("img/throneroom");
+  }
+
+  p {
+    font-family: "times new roman";
+    color: white;
+  }
+
+  #startpgtext {
+    text-align: left;
+    position: absolute;
+        top: 650px;
+  }
+
+  #instructions {
+    text-align: left;
+    position: absolute;
+        top: 650px;
+  }
+
+  #x {
+    position: absolute;
+        top: 661px;
+        left: 1385px;
+    height: 50px;
+    width: 50px;
+    float: right;
+  }
+
+
+
+/*Stuff below governs the Explore screen*/
+
+#exploreBody {
+    background-image: url("http://preview.turbosquid.com/Preview/2014/05/25__08_44_59/pic%202.jpgdcf7e882-62c2-4f49-b050-36d6bcba174fOriginal.jpg");
+    background-position: bottom center;
+
+}
+#goldenkey{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 650px;
+    left: 490px;
+}
+
+#background3{
+    background-image: url("http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg");
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow: hidden;
+}
+
+#winterbackground{
+    background-image: url("http://blender.hu/galeria/2012/1.jpg");
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow: hidden;
+}
+
+#watchtower{
+    background-image: url("http://i48.tinypic.com/11wcb3s.jpg");
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow: hidden;
+}
+
+#metaldiv {
+    height: 250px;
+    width: 175px;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+}
+
+.goldenkey2{
+    width: 80px;
+    height: 20px;
+}
+
+#deadend{
+    height: 250px;
+    width: 175px;
+    position: absolute;
+    top: 530px;
+    left: 880px;
+}
+
+#secondchance{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+#wintersh{
+    height: 250px;
+    width: 175px;
+    position: absolute;
+    top: 530px;
+    left: 380px;
+}
+
+#secondchancedoor{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 230px;
+    left: 470px;
+}
+
+#meetwinter{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 500px;
+    left: 680px;
+}
+
+#levanasr{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 500px;
+    left: 680px;
+}
+
+#levanash {
+    height: 225px;
+    width: 175px;
+    position: absolute;
+    top: 555px;
+    left: 625px; 
+}
+
+#staircase {
+    height: 620px;
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 330px;
+}
+
+#guard {
+    height: 500px;
+    position: absolute;
+    top: 305px;
+    left: 600px;
+}
+
+#leftstaircase{
+    height: 850px;
+    width: 750px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#rightstaircase{
+    height: 850px;
+    width: 750px;
+    position: absolute;
+    top: 0px;
+    left: 750px;
+}
+
+#gameover1 {
+    background-image: url("img/gameover");
+}
+
+#hammer{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 625px;
+    left: 700px;
+}
+
+#hammer2{
+    width: 100px;
+    height: 150px;
+}
+
+#actualwinter{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    background-image: url("img/winterfanart.png");
+    width: 190px;
+    height: 475px;
+}
+
+#winterspeech{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#winterspeech2{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#actualwinter2{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    background-image: url("img/winterfanart.png");
+    width: 190px;
+    height: 475px;
+}
+
+#actualwinter3{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    background-image: url("img/winterfanart.png");
+    width: 190px;
+    height: 475px;
+}
+
+#winterspeech3{
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#actualwinter4{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    background-image: url("img/winterfanart.png");
+    width: 190px;
+    height: 475px;
+}
+
+#winterspeech4{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#actualwinter5{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    background-image: url("img/winterfanart.png");
+    width: 190px;
+    height: 475px;
+}
+
+#winterspeech5{
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#actualwinter6{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    background-image: url("img/winterfanart.png");
+    width: 190px;
+    height: 475px;
+}
+
+#winterspeech6{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#tapestry{
+    position: absolute;
+    top: 275px;
+    left: 1150px;
+    height: 400px;
+    width: 100px;
+}
+
+#hole{
+    background-image: url("http://emojipedia-us.s3.amazonaws.com/cache/0d/11/0d1125747c6c436c4f5f074f6ba9e878.png");
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    width: 120px;
+    height: 120px;
+}
+
+#transition{
+    width: 1500px;
+    height: 850px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#lakezoom{
+    width: 1500px;
+    height: 850px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
